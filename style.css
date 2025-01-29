@@ -1,0 +1,196 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  color: white;
+  border: 10px black;
+  position: sticky;
+  top: 0;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 100px;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 70px;
+
+}
+nav ul li :hover{
+  color: burlywood;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#hero {
+  background-color: #e6e6e6;
+  text-align: center;
+  font-family: "Great Vibes", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(56, 0, 7);
+  padding: 7rem;
+  background-image:url(./images/home.webp);
+  background-position: center;
+  size: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+#gap {
+  background-color: #333;
+  color: #fff;
+  height: 30px;
+  font-size: 25px;
+  position: sticky;
+  top: 175px;
+}
+
+#featured-products {
+  padding: 2rem;
+  font-size: large;
+  font-size: 30px;
+  text-shadow: white 1px 1px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.product {
+  border: 3px solid black;
+  padding: 1rem;
+  text-align: center;
+  font-size: small;
+  font-size: 20px;
+  text-shadow: none;
+
+}
+.product:hover{
+  border-radius: 20%;
+  background-image: unset;
+  transition: all 0.4s ease;
+  background-color: burlywood;
+}
+
+.product img {
+  max-width: 85%;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  background-color: grey;
+}
+#cart{
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 90px;
+
+}
+#cart :hover{
+  color: burlywood;
+}
+.product button{
+  box-shadow: black 2px 2px;
+}
+.product button:hover{
+  box-shadow: black 2px 2px;
+  background-color: black;
+  color: white;
+  box-shadow: white 2px 2px;
+}
+.about{
+  background-color: #e6e6e6;
+  text-align: center;
+  font-family: "Great Vibes", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(56, 0, 7);
+  padding: 7rem;
+  background-image:url(./images/about.jpg);
+  background-position: center;
+  size: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.aboutus{
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
